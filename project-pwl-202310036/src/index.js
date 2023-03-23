@@ -1,15 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import PersonalData from "./components/PersonalData";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "./index.css";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import PersonalData from "./components/Tugas1/PersonalData";
+import WidgetOne from "./components/Tugas2/WidgetOne";
+import FormPersonalDataMultiple from "./components/Tugas2/FormPersonalDataMultiple";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PersonalData />
+    {/* <App /> */}
+    {/* <PersonalData /> */}
+    <WidgetOne />
+    <FormPersonalDataMultiple />
   </React.StrictMode>
 );
 
