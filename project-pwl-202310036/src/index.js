@@ -5,11 +5,12 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import PersonalData from "./components/Tugas1/PersonalData";
-import WidgetOne from "./components/Tugas2/WidgetOne";
+import Widgetone from "./components/Tugas2/WidgetOne";
 import FormPersonalDataMultiple from "./components/Tugas2/FormPersonalDataMultiple";
-import Layout from "./components/pertemuan3/layouts/Layout";
+import layout from "./components/pertemuan3/layouts/Layout";
 import Homes from "./components/pertemuan3/modules/Homes/Homes";
-import AppRoute from "./components/pertemuan3/apps/AppRoute";
+// import AppRoute from "./components/latihan-3-1/apps/AppRoute";
+import AppRoute from "./components/tugas4/apps/routes/AppRoute";
 import { BrowserRouter } from "react-router-dom";
 
 const { PUBLIC_URL } = process.env;
